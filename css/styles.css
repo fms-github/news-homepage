@@ -1,0 +1,193 @@
+/************ Elements Styles ********/
+
+header {
+    font-family: 'Inter', sans-serif;
+    justify-content: space-between;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 50px 100px;
+    
+}
+
+footer {
+    margin-top: 40px;
+}
+nav {
+    display: inline;
+    position: absolute;
+    right: 6.25rem;
+    margin: 35px 0;
+    padding: 10px 0;
+}
+
+p {
+    font-size: 15px;
+    margin: 0;
+    padding: 20px;
+    width: 80%;
+}
+
+h1 {
+    display: inline-block;
+    padding: 10px 0;
+    width: 30%;
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    padding-left: 16px;
+}
+
+h3 {
+    color: hsl(233, 8%, 79%);
+    opacity: 50%;
+    margin: 0;
+}
+
+h4 {
+    color: hsl(36, 100%, 99%);
+}
+
+h5 {
+    margin: 0;
+    padding: 5px 0;
+}
+
+hr {
+    border-color: hsl(233, 8%, 79%);
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    padding: 20px 0;
+    width: 90%;
+
+}
+
+a {
+    color: hsl(236, 13%, 42%);
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+a:hover {
+    color: hsl(35, 77%, 62%);
+}
+
+/****** CLASS Styles ******/
+
+.new-link {
+    color: hsl(36, 100%, 99%);
+    padding: 16px;
+}
+
+.new-link:hover {
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: hsl(35, 77%, 62%);
+}
+
+.favicon {
+    display: inline;
+    padding: 2rem 0;
+}
+
+.headline-img {
+    height: 100%;
+    width: 90%;
+}
+
+.tile-img {
+    float: left;
+    height: 6rem;
+    width: 5rem;
+    padding-right: 10px;
+}
+
+.tile-01 {
+    display: inline;
+    width: 33%;
+}
+
+.tile-02 {
+    display: inline;
+    width: 33%;
+}
+
+.tile-03 {
+    display: inline;
+    width: 33%;
+}
+
+.main-container {
+    display: inline-block;
+    position: relative;
+    width: 75%;
+    margin: auto;
+    
+}
+
+.main-title {
+    display: inline;
+}
+
+.p-main {
+    display: inline-block;
+    font-size: 15px;
+    padding: 0;
+    width: 60%;
+    
+}
+
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    background: hsl(5, 85%, 63%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: hsl(240, 100%, 5%);
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+.new-container {
+    background-color: hsl(240, 100%, 5%);
+    display: inline-block;
+    position: absolute;
+    right: 75px;
+    width: 28%;
+    margin: 0 auto 0 auto;
+}
+
+.new-p {
+    color: hsl(233, 8%, 79%);
+    font-size: 15px;
+}
+
+.top-stories-container {
+    display: inline-flex;
+    width: 100%;
+    margin: auto;
+}
+
+/****** FOOTER *****/
+
+.attribution { 
+    font-size: 11px; 
+    text-align: 
+    center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
